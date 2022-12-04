@@ -1,0 +1,192 @@
+.body{
+    max-width: 100%;
+    margin: auto;
+}
+.name{
+    min-height: 200px;
+    background: linear-gradient(0deg, rgba(15, 23, 42, 0) 0%, #0F172A 100%);
+}
+.nameStyle{
+    padding-top: 20px;
+}
+.surname{
+    margin: auto;
+    font-family: 'Plus Jakarta Sans',sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 35px;
+    color: #E2E8F0;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-align: center;
+}
+.profession{
+    padding-top: 15px;
+    margin: auto;
+    font-family: 'Plus Jakarta Sans',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 13px;
+    color: #CBD5E1;
+    text-align: center;
+}
+.contactP{
+    margin-bottom: 3px;
+}
+.contact {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+.contact svg path{
+    fill: white;
+}
+/*@media screen and (max-width:992px) {*/
+/*    .contact svg path{*/
+/*        fill: black;*/
+/*    }*/
+/*    .contact {*/
+/*        display: block;*/
+/*    }*/
+/*    .map{*/
+/*        max-width: 28%;*/
+/*        margin: auto;*/
+/*    }*/
+/*    .email{*/
+/*        max-width: 45%;*/
+/*        margin: auto;*/
+/*    }*/
+/*    .phone{*/
+/*        max-width: 40%;*/
+/*        margin: auto;*/
+/*    }*/
+/*    .contactP{*/
+/*        color: black;*/
+/*    }*/
+/*}*/
+
+.map{
+    display: flex;
+    padding: 15px;
+    font-family: 'Plus Jakarta Sans',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    line-height: 9px;
+    color: #E2E8F0;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.email{
+    display: flex;
+    padding: 15px;
+    font-family: 'Plus Jakarta Sans',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    line-height: 9px;
+    color: #E2E8F0;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+.phone{
+    display: flex;
+    padding: 15px;
+    font-family: 'Plus Jakarta Sans',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    line-height: 9px;
+    color: #E2E8F0;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.map:hover{
+    color: black;
+}
+.email:hover{
+    color: black;
+}
+.phone:hover{
+    color: black;
+}
+.textWork{
+    padding-bottom: 40px;
+    margin: auto;
+    font-family: 'Plus Jakarta Sans',sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-align: center;
+}
+
+
+.skil{
+    padding-bottom: 30px;
+    max-width: 800px;
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    margin: auto;
+}
+@media screen and (max-width:992px) {
+  .skil{
+      display: block;
+      margin: auto;
+      align-items: center;
+  }
+}
+
+.workExperience{
+    background: linear-gradient(54deg, rgba(15, 23, 42, 0) 0%, #0F172A 112%);
+
+}
+.myWork{
+    padding-bottom: 20px;
+    background: linear-gradient(232deg, rgba(15, 23, 42, 0) 0%, #0F172A 132%);
+
+}
+.bodyName{
+    text-align: center;
+}
+
+.nameSkil {
+text-align: center;
+}
+.footerWork{
+    text-align: center;
+}
+
+.colorGulp{
+    color: black;
+}
+.colorGulp:hover{
+    color: #ffffff;
+}
+.colorJS{
+    color: black;
+}
+.colorJS:hover{
+    color: #ffffff;
+}
+.colorReact{
+    color: black;
+}
+.colorReact:hover{
+    color: #ffffff;
+}
+
+
+
