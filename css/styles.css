@@ -44,29 +44,29 @@
 .contact svg path{
     fill: white;
 }
-/*@media screen and (max-width:992px) {*/
-/*    .contact svg path{*/
-/*        fill: black;*/
-/*    }*/
-/*    .contact {*/
-/*        display: block;*/
-/*    }*/
-/*    .map{*/
-/*        max-width: 28%;*/
-/*        margin: auto;*/
-/*    }*/
-/*    .email{*/
-/*        max-width: 45%;*/
-/*        margin: auto;*/
-/*    }*/
-/*    .phone{*/
-/*        max-width: 40%;*/
-/*        margin: auto;*/
-/*    }*/
-/*    .contactP{*/
-/*        color: black;*/
-/*    }*/
-/*}*/
+@media screen and (max-width:992px) {
+    .contact svg path{
+        fill: black;
+    }
+    .contact {
+        display: block;
+    }
+    .map{
+        max-width: 28%;
+        margin: auto;
+    }
+    .email{
+        max-width: 45%;
+        margin: auto;
+    }
+    .phone{
+        max-width: 40%;
+        margin: auto;
+    }
+    .contactP{
+        color: black;
+    }
+}
 
 .map{
     display: flex;
@@ -147,6 +147,9 @@
       margin: auto;
       align-items: center;
   }
+}
+.mainSkill{
+    padding-left: 0;
 }
 
 .workExperience{
