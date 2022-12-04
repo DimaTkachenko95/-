@@ -81,7 +81,19 @@
     justify-content: center;
     align-items: center;
 }
-
+.telegram{
+    display: flex;
+    padding: 15px;
+    font-family: 'Plus Jakarta Sans',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    line-height: 9px;
+    color: #E2E8F0;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
 .email{
     display: flex;
     padding: 15px;
@@ -110,6 +122,9 @@
 }
 
 .map:hover{
+    color: black;
+}
+.telegram:hover{
     color: black;
 }
 .email:hover{
@@ -157,12 +172,14 @@
 
 }
 .myWork{
+    padding-top: 20px;
     padding-bottom: 20px;
     background: linear-gradient(232deg, rgba(15, 23, 42, 0) 0%, #0F172A 132%);
 
 }
 .bodyName{
     text-align: center;
+    padding-top: 20px;
 }
 
 .nameSkil {
@@ -190,6 +207,8 @@ text-align: center;
 .colorReact:hover{
     color: #ffffff;
 }
-
+.sectionSummary{
+    text-align: center;
+}
 
 
