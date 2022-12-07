@@ -214,3 +214,13 @@ text-align: center;
     text-align: center;
 }
 
+.rep{
+    padding-bottom: 20px;
+}
+.git{
+    color: black;
+    padding-bottom: 30px;
+}
+.git:hover{
+    color: white;
+}
